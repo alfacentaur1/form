@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #17153B;
+    min-height:45rem;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    display:flex;
+    width:45%;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 1rem;
+    border-radius: 25px;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: hsla(280, 76%, 29%, 0.577);
+    margin-bottom: 1rem;
+}
+
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid black;
+    background-color:#433D8B;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+ul {
+    list-style: none;
+    margin:1rem;
+    
+}
+
+li{
+    display:inline;
+    padding:1rem;
+    margin: 3rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:black;
+}
+
+a:active {
+    color:white;
+}
+
+
+footer {
+    width:100%;
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    background-color: #433D8B;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formik {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #201d5c;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+fieldset {
+    padding:1.5rem;
+    font-size: 1rem;
+    background-color: #433D8B;
+    margin-top:10rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    border-radius:25px;
+    
+}
+
+label {
+    padding:1rem;
+}
+
+input {
+    border-style: none;
+    border-radius:15px;
+    height:2rem;
+}
+
+.submit {
+    background-color: hsla(276, 63%, 33%, 0.878);
+    margin:1rem;
+    padding:0.5rem;
+    border-radius:25px;
+    border-style:none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.submit:hover {
+    background-color:hsla(276, 63%, 33%, 0.456);
+}
+
+input {
+    padding-left:0.5rem ;
+}
+
+input:focus {
+    border-style:none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left:0.5rem;
+}
+
